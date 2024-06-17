@@ -9,24 +9,16 @@
 /* Begin PBXBuildFile section */
 		FFDC38D12C1FD202009BC27E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFDC38D02C1FD202009BC27E /* AppDelegate.swift */; };
 		FFDC38D32C1FD202009BC27E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFDC38D22C1FD202009BC27E /* SceneDelegate.swift */; };
-		FFDC38D52C1FD202009BC27E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFDC38D42C1FD202009BC27E /* ViewController.swift */; };
-		FFDC38D82C1FD202009BC27E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFDC38D62C1FD202009BC27E /* Main.storyboard */; };
 		FFDC38DA2C1FD203009BC27E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFDC38D92C1FD203009BC27E /* Assets.xcassets */; };
 		FFDC38DD2C1FD203009BC27E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFDC38DB2C1FD203009BC27E /* LaunchScreen.storyboard */; };
 		FFDC38E82C1FD203009BC27E /* InterviewProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFDC38E72C1FD203009BC27E /* InterviewProjectTests.swift */; };
-		FFDC38F22C1FD203009BC27E /* InterviewProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFDC38F12C1FD203009BC27E /* InterviewProjectUITests.swift */; };
-		FFDC38F42C1FD203009BC27E /* InterviewProjectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFDC38F32C1FD203009BC27E /* InterviewProjectUITestsLaunchTests.swift */; };
+		FFDC39012C1FD21E009BC27E /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFDC39002C1FD21E009BC27E /* FirstViewController.swift */; };
+		FFDC39032C1FD4DA009BC27E /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFDC39022C1FD4DA009BC27E /* SecondViewController.swift */; };
+		FFDC39052C1FD503009BC27E /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFDC39042C1FD503009BC27E /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		FFDC38E42C1FD203009BC27E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = FFDC38C52C1FD202009BC27E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = FFDC38CC2C1FD202009BC27E;
-			remoteInfo = InterviewProject;
-		};
-		FFDC38EE2C1FD203009BC27E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = FFDC38C52C1FD202009BC27E /* Project object */;
 			proxyType = 1;
@@ -39,16 +31,14 @@
 		FFDC38CD2C1FD202009BC27E /* InterviewProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InterviewProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFDC38D02C1FD202009BC27E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FFDC38D22C1FD202009BC27E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		FFDC38D42C1FD202009BC27E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		FFDC38D72C1FD202009BC27E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FFDC38D92C1FD203009BC27E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FFDC38DC2C1FD203009BC27E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FFDC38DE2C1FD203009BC27E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FFDC38E32C1FD203009BC27E /* InterviewProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InterviewProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFDC38E72C1FD203009BC27E /* InterviewProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterviewProjectTests.swift; sourceTree = "<group>"; };
-		FFDC38ED2C1FD203009BC27E /* InterviewProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InterviewProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		FFDC38F12C1FD203009BC27E /* InterviewProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterviewProjectUITests.swift; sourceTree = "<group>"; };
-		FFDC38F32C1FD203009BC27E /* InterviewProjectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterviewProjectUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FFDC39002C1FD21E009BC27E /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		FFDC39022C1FD4DA009BC27E /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		FFDC39042C1FD503009BC27E /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,13 +56,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FFDC38EA2C1FD203009BC27E /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -81,7 +64,6 @@
 			children = (
 				FFDC38CF2C1FD202009BC27E /* InterviewProject */,
 				FFDC38E62C1FD203009BC27E /* InterviewProjectTests */,
-				FFDC38F02C1FD203009BC27E /* InterviewProjectUITests */,
 				FFDC38CE2C1FD202009BC27E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -91,7 +73,6 @@
 			children = (
 				FFDC38CD2C1FD202009BC27E /* InterviewProject.app */,
 				FFDC38E32C1FD203009BC27E /* InterviewProjectTests.xctest */,
-				FFDC38ED2C1FD203009BC27E /* InterviewProjectUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -101,8 +82,9 @@
 			children = (
 				FFDC38D02C1FD202009BC27E /* AppDelegate.swift */,
 				FFDC38D22C1FD202009BC27E /* SceneDelegate.swift */,
-				FFDC38D42C1FD202009BC27E /* ViewController.swift */,
-				FFDC38D62C1FD202009BC27E /* Main.storyboard */,
+				FFDC39002C1FD21E009BC27E /* FirstViewController.swift */,
+				FFDC39022C1FD4DA009BC27E /* SecondViewController.swift */,
+				FFDC39042C1FD503009BC27E /* DetailViewController.swift */,
 				FFDC38D92C1FD203009BC27E /* Assets.xcassets */,
 				FFDC38DB2C1FD203009BC27E /* LaunchScreen.storyboard */,
 				FFDC38DE2C1FD203009BC27E /* Info.plist */,
@@ -116,15 +98,6 @@
 				FFDC38E72C1FD203009BC27E /* InterviewProjectTests.swift */,
 			);
 			path = InterviewProjectTests;
-			sourceTree = "<group>";
-		};
-		FFDC38F02C1FD203009BC27E /* InterviewProjectUITests */ = {
-			isa = PBXGroup;
-			children = (
-				FFDC38F12C1FD203009BC27E /* InterviewProjectUITests.swift */,
-				FFDC38F32C1FD203009BC27E /* InterviewProjectUITestsLaunchTests.swift */,
-			);
-			path = InterviewProjectUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -165,24 +138,6 @@
 			productReference = FFDC38E32C1FD203009BC27E /* InterviewProjectTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		FFDC38EC2C1FD203009BC27E /* InterviewProjectUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = FFDC38FD2C1FD203009BC27E /* Build configuration list for PBXNativeTarget "InterviewProjectUITests" */;
-			buildPhases = (
-				FFDC38E92C1FD203009BC27E /* Sources */,
-				FFDC38EA2C1FD203009BC27E /* Frameworks */,
-				FFDC38EB2C1FD203009BC27E /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				FFDC38EF2C1FD203009BC27E /* PBXTargetDependency */,
-			);
-			name = InterviewProjectUITests;
-			productName = InterviewProjectUITests;
-			productReference = FFDC38ED2C1FD203009BC27E /* InterviewProjectUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -197,10 +152,6 @@
 						CreatedOnToolsVersion = 15.1;
 					};
 					FFDC38E22C1FD203009BC27E = {
-						CreatedOnToolsVersion = 15.1;
-						TestTargetID = FFDC38CC2C1FD202009BC27E;
-					};
-					FFDC38EC2C1FD203009BC27E = {
 						CreatedOnToolsVersion = 15.1;
 						TestTargetID = FFDC38CC2C1FD202009BC27E;
 					};
@@ -221,7 +172,6 @@
 			targets = (
 				FFDC38CC2C1FD202009BC27E /* InterviewProject */,
 				FFDC38E22C1FD203009BC27E /* InterviewProjectTests */,
-				FFDC38EC2C1FD203009BC27E /* InterviewProjectUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -233,18 +183,10 @@
 			files = (
 				FFDC38DD2C1FD203009BC27E /* LaunchScreen.storyboard in Resources */,
 				FFDC38DA2C1FD203009BC27E /* Assets.xcassets in Resources */,
-				FFDC38D82C1FD202009BC27E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		FFDC38E12C1FD203009BC27E /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FFDC38EB2C1FD203009BC27E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -258,9 +200,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FFDC38D52C1FD202009BC27E /* ViewController.swift in Sources */,
+				FFDC39032C1FD4DA009BC27E /* SecondViewController.swift in Sources */,
 				FFDC38D12C1FD202009BC27E /* AppDelegate.swift in Sources */,
+				FFDC39052C1FD503009BC27E /* DetailViewController.swift in Sources */,
 				FFDC38D32C1FD202009BC27E /* SceneDelegate.swift in Sources */,
+				FFDC39012C1FD21E009BC27E /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,15 +216,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FFDC38E92C1FD203009BC27E /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FFDC38F42C1FD203009BC27E /* InterviewProjectUITestsLaunchTests.swift in Sources */,
-				FFDC38F22C1FD203009BC27E /* InterviewProjectUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -289,22 +224,9 @@
 			target = FFDC38CC2C1FD202009BC27E /* InterviewProject */;
 			targetProxy = FFDC38E42C1FD203009BC27E /* PBXContainerItemProxy */;
 		};
-		FFDC38EF2C1FD203009BC27E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = FFDC38CC2C1FD202009BC27E /* InterviewProject */;
-			targetProxy = FFDC38EE2C1FD203009BC27E /* PBXContainerItemProxy */;
-		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		FFDC38D62C1FD202009BC27E /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FFDC38D72C1FD202009BC27E /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		FFDC38DB2C1FD203009BC27E /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -447,7 +369,6 @@
 				INFOPLIST_FILE = InterviewProject/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -475,7 +396,6 @@
 				INFOPLIST_FILE = InterviewProject/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -531,42 +451,6 @@
 			};
 			name = Release;
 		};
-		FFDC38FE2C1FD203009BC27E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 9M4278K6XP;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.interviewproject.InterviewProjectUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = InterviewProject;
-			};
-			name = Debug;
-		};
-		FFDC38FF2C1FD203009BC27E /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 9M4278K6XP;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.interviewproject.InterviewProjectUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = InterviewProject;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -593,15 +477,6 @@
 			buildConfigurations = (
 				FFDC38FB2C1FD203009BC27E /* Debug */,
 				FFDC38FC2C1FD203009BC27E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		FFDC38FD2C1FD203009BC27E /* Build configuration list for PBXNativeTarget "InterviewProjectUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				FFDC38FE2C1FD203009BC27E /* Debug */,
-				FFDC38FF2C1FD203009BC27E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

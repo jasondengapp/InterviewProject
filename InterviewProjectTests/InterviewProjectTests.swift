@@ -10,27 +10,63 @@ import XCTest
 
 final class InterviewProjectTests: XCTestCase {
 
-    override func setUpWithError() throws {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
-    }
+    func testFirstViewController() {
+            let firstVC = FirstViewController()
+            firstVC.loadViewIfNeeded()
 
-    override func tearDownWithError() throws {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
-    }
+            XCTAssertNotNil(firstVC.view, "View should not be nil")
+            XCTAssertTrue(firstVC.view.subviews.contains { $0 is UIButton }, "FirstViewController should have a button")
 
-    func testExample() throws {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-        // Any test you write for XCTest can be annotated as throws and async.
-        // Mark your test throws to produce an unexpected failure when your test encounters an uncaught error.
-        // Mark your test async to allow awaiting for asynchronous code to complete. Check the results with assertions afterwards.
-    }
-
-    func testPerformanceExample() throws {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
+            let button = firstVC.view.subviews.first { $0 is UIButton } as? UIButton
+            XCTAssertEqual(button?.title(for: .normal), "Next", "Button title should be 'Next'")
         }
-    }
+
+        func testSecondViewController() {
+            let secondVC = SecondViewController()
+            secondVC.loadViewIfNeeded()
+
+            XCTAssertNotNil(secondVC.view, "View should not be nil")
+            XCTAssertTrue(secondVC.view.subviews.contains { $0 is UICollectionView }, "SecondViewController should have a UICollectionView")
+
+            let collectionView = secondVC.view.subviews.first { $0 is UICollectionView } as? UICollectionView
+            XCTAssertNotNil(collectionView, "CollectionView should not be nil")
+            XCTAssertEqual(collectionView?.numberOfItems(inSection: 0), 0, "Initially, there should be no items in the collection view")
+        }
+
+        func testDetailViewController() {
+            let detailVC = DetailViewController()
+            detailVC.loadViewIfNeeded()
+
+            XCTAssertNotNil(detailVC.view, "View should not be nil")
+
+            detailVC.apodData = ApodData(
+                description: "Test Description",
+                copyright: "Test Copyright",
+                title: "Test Title",
+                url: "https://example.com/image.jpg",
+                apod_site: "https://example.com",
+                date: "2020-12-17",
+                media_type: "image",
+                hdurl: "https://example.com/hdimage.jpg"
+            )
+
+            detailVC.configureWithData()
+
+            XCTAssertEqual(detailVC.titleLabel.text, "Test Title", "Title should be 'Test Title'")
+            XCTAssertEqual(detailVC.copyrightLabel.text, "Test Copyright", "Copyright should be 'Test Copyright'")
+            XCTAssertEqual(detailVC.descriptionLabel.text, "Test Description", "Description should be 'Test Description'")
+            XCTAssertEqual(detailVC.dateLabel.text, "2020 Dec. 17", "Date should be '2020 Dec. 17'")
+        }
+
+        func testApodCell() {
+            let cell = ApodCell()
+            cell.prepareForReuse()
+
+            XCTAssertNil(cell.imageView.image, "ImageView image should be nil after prepareForReuse")
+            XCTAssertNil(cell.titleLabel.text, "TitleLabel text should be nil after prepareForReuse")
+
+            cell.titleLabel.text = "Test Title"
+            XCTAssertEqual(cell.titleLabel.text, "Test Title", "Title should be 'Test Title'")
+        }
 
 }
